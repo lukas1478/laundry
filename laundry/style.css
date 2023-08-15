@@ -1,0 +1,214 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+background-color:#ffffff ;
+
+
+}
+.header{
+background-image: linear-gradient(90deg, #36cff1 5%,#063e61 100%);
+width: 100%;
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:40px 60px;
+height: 10px;
+font-weight: 600;
+position: fixed;
+}
+.logo img{
+margin-left: -40px;
+}
+
+
+.logo{
+cursor: pointer;
+}
+
+.list ul{
+display: flex;
+list-style: none;
+padding-left: 400px;
+}
+.list ul li{
+padding: 40px;
+}
+.list ul li a {
+text-decoration: none;
+color: white;
+}
+.list ul li a:hover{
+color: #c0f8ff;
+
+
+}
+
+.book button{
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color:white;
+    background-size: 40px;
+    color: #36cff1;
+    box-sizing: border-box;
+    height: 30px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0px 4px 10px 0px #002338 ;
+    }
+.book button:hover{
+    color: white;
+    background-color:#00bcd4;
+    transition: 0.5s ease-in-out;
+    }
+    .header .right button{
+    border: none;
+    outline: auto;
+
+    }
+.right button{ 
+        border-radius: 8px;
+        cursor: pointer;
+        background-color:transparent;
+        background-size: 40px;
+        color: #ffffff;
+        height: 30px;
+        width: 90px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 50px;
+    }
+.right button:hover{
+    outline-color: #00bcd4;
+    box-shadow: 0px 4px 10px 0px #002338;
+    transition: 0.5s ease-in-out;
+    }
+.hero{
+    padding-top: 50px;
+    background-image:url(ba\ \(2\).jpg) ;
+    
+    }
+.hero .box{
+    display: flex;
+    justify-content: space-around;
+    
+    }
+.hero .herodes{
+    padding-left: 100px;
+    padding-top: 50px;
+    }
+.hero .herodes h2{
+    font-size: 80px;
+    font-weight: 500;
+    color: white;
+    }
+.hero .herodes h2 b{
+    color:#36CFF1; 
+    }
+.hero .herodes .tag{
+    font-weight: 500;
+    font-size: 19px; 
+    color: white;
+    }
+.hero .herodes .start button{
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: #ffffff;
+        background-size: 40px;
+        color: #001420;
+        box-sizing: border-box;
+        height: 50px;
+        width: 160px;
+        font-weight: 600;
+        font-size: 25px;
+        box-shadow: 0px 2px 5px 0px #001420 ;
+        margin-top: 35px;
+        }
+.hero .herodes .start button:hover{
+        background-color:#1caaca;
+        transition:ease 0.5s;
+        color: white;
+        transform: translateX(10px);
+        }
+.hero img{
+        margin-right: 80px;
+        background-color: #0079c4;
+        height: 600px;
+        width: 800px;
+        border-radius: 100px;
+        box-sizing: border-box;
+        box-shadow: #000b11 0px 1px 4px 4px;
+        }
+.offer{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: 24px ;
+        }
+.container{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        background-color: #c2c2c2;
+        padding-top: 40px;
+        
+        } 
+.container .item1 a{
+        text-decoration: none;
+        background-color: #002338; 
+        color: white;
+        background-size: cover;
+        }
+.container .item2 a{
+            text-decoration: none;
+            background-color: #002338; 
+            color: white;
+        }
+        .container .item3 a{
+            text-decoration: none;
+            background-color: #002338; 
+            color: white;
+        }
+.item1{
+        background-color: #002338;
+        width: 350px;
+        height: 300px;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        box-sizing: border-box;
+        background-image: url(dry.jpg);
+        
+    } 
+.item2{
+    background-color: #002338;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    box-sizing: border-box;
+    background-image: url(laundry.jpg);
+       
+    } 
+.item3{
+    background-color: #002338;
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    box-sizing: border-box;
+    background-image: url(iron.jpg);
+    } 
+   
